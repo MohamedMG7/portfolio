@@ -9,7 +9,9 @@ function createProjectCard(project) {
   const mediaStyle = project.cardImage
     ? `background-image: linear-gradient(rgba(11, 15, 12, 0.28), rgba(11, 15, 12, 0.72)), url('${project.cardImage}'); --card-image-fit: ${imageFit};`
     : `background-image: ${project.accent};`;
-  const countMarkup = Number.isFinite(project.solvedCount)
+  const countMarkup = typeof project.countText === "string"
+    ? `<p class="project-card-count"><span class="project-card-status-dot" aria-hidden="true"></span>${project.countText}</p>`
+    : Number.isFinite(project.solvedCount)
     ? `<p class="project-card-count"><span class="project-card-status-dot" aria-hidden="true"></span>${project.solvedCount} ${project.countLabel || "items"}</p>`
     : "";
   const liveMarkup = project.liveDemo
@@ -62,6 +64,46 @@ function renderProjectGrid() {
   }
 
   grid.innerHTML = projects.map(createProjectCard).join("");
+}
+
+async function hydrateDynamicProjectCounts() {
+  if (!Array.isArray(projects)) {
+    return;
+  }
+
+  const project = projects.find((item) => item.slug === "l337code");
+
+  if (!project) {
+    return;
+  }
+
+  try {
+    const response = await fetch("https://api.github.com/repos/MohamedMG7/l337Code/contents", {
+      headers: {
+        Accept: "application/vnd.github+json"
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error(`GitHub request failed with ${response.status}`);
+    }
+
+    const items = await response.json();
+    const solvedCount = Array.isArray(items)
+      ? items.filter((item) => item && item.type === "dir").length
+      : NaN;
+
+    if (!Number.isFinite(solvedCount)) {
+      throw new Error("Unable to calculate solved count");
+    }
+
+    project.solvedCount = solvedCount;
+    project.countLabel = "solved";
+    delete project.countText;
+    renderProjectGrid();
+  } catch (error) {
+    console.warn("Unable to refresh l337Code solved count.", error);
+  }
 }
 
 function renderProjectDetail() {
@@ -143,3 +185,4 @@ function renderProjectDetail() {
 
 renderProjectGrid();
 renderProjectDetail();
+hydrateDynamicProjectCounts();

@@ -223,8 +223,7 @@ const projects = [
       "Shows consistency and discipline through ongoing problem-solving practice"
     ],
     accent: "linear-gradient(135deg, #1c251d 0%, #0b0f0c 100%)",
-    solvedCount: 45,
-    countLabel: "problems solved",
+    countText: "XX solved",
     image:
       "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1600&q=80",
     cardImage:

@@ -1,0 +1,36 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="199" y1="89" x2="1409" y2="839" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#13241B"/>
+      <stop offset="1" stop-color="#08100B"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="292" y1="162" x2="1292" y2="732" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B3126"/>
+      <stop offset="1" stop-color="#101913"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="339" y1="262" x2="1102" y2="621" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B7F58D"/>
+      <stop offset="1" stop-color="#6AB58A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1302" cy="164" r="170" fill="#254032" fill-opacity="0.4"/>
+  <rect x="248" y="132" width="1104" height="636" rx="36" fill="url(#panel)" stroke="#335040" stroke-width="2"/>
+  <rect x="320" y="228" width="430" height="444" rx="28" fill="#111A15" stroke="#365443" stroke-width="2"/>
+  <rect x="812" y="228" width="468" height="180" rx="28" fill="#111A15" stroke="#365443" stroke-width="2"/>
+  <rect x="812" y="448" width="468" height="224" rx="28" fill="#111A15" stroke="#365443" stroke-width="2"/>
+  <rect x="390" y="292" width="290" height="320" rx="24" fill="#17241D"/>
+  <path d="M470 420C470 365.324 514.324 321 569 321C623.676 321 668 365.324 668 420V455H470V420Z" fill="url(#accent)" fill-opacity="0.22"/>
+  <path d="M522 395C522 369.595 542.595 349 568 349H570C595.405 349 616 369.595 616 395V423H522V395Z" fill="url(#accent)"/>
+  <rect x="538" y="430" width="62" height="86" rx="16" fill="#111A15"/>
+  <circle cx="569" cy="470" r="12" fill="#B7F58D"/>
+  <path d="M876 288H1096" stroke="#E8FFD9" stroke-width="14" stroke-linecap="round"/>
+  <path d="M876 330H1220" stroke="#6F9177" stroke-width="10" stroke-linecap="round"/>
+  <path d="M876 360H1168" stroke="#6F9177" stroke-width="10" stroke-linecap="round"/>
+  <rect x="872" y="508" width="348" height="124" rx="24" fill="#17241D"/>
+  <rect x="906" y="542" width="154" height="16" rx="8" fill="#B7F58D"/>
+  <rect x="906" y="578" width="222" height="12" rx="6" fill="#6F9177"/>
+  <rect x="1148" y="534" width="42" height="72" rx="10" fill="url(#accent)"/>
+  <text x="318" y="108" fill="#DFFFD0" font-family="'IBM Plex Mono', monospace" font-size="26" letter-spacing="0.18em">INTERNSHIP / LEVEL 1</text>
+  <text x="320" y="824" fill="#F3FFE8" font-family="'IBM Plex Mono', monospace" font-size="72" font-weight="600">Auth App</text>
+</svg>

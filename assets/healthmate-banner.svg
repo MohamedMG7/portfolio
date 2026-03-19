@@ -1,0 +1,53 @@
+<svg width="1600" height="760" viewBox="0 0 1600 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="760" fill="#0B0F0C"/>
+
+  <g opacity="0.08" stroke="#9EE37D">
+    <path d="M0 56H1600"/>
+    <path d="M0 112H1600"/>
+    <path d="M0 168H1600"/>
+    <path d="M0 224H1600"/>
+    <path d="M0 280H1600"/>
+    <path d="M0 336H1600"/>
+    <path d="M0 392H1600"/>
+    <path d="M0 448H1600"/>
+    <path d="M0 504H1600"/>
+    <path d="M0 560H1600"/>
+    <path d="M0 616H1600"/>
+    <path d="M0 672H1600"/>
+    <path d="M0 728H1600"/>
+    <path d="M100 0V760"/>
+    <path d="M220 0V760"/>
+    <path d="M340 0V760"/>
+    <path d="M460 0V760"/>
+    <path d="M580 0V760"/>
+    <path d="M700 0V760"/>
+    <path d="M820 0V760"/>
+    <path d="M940 0V760"/>
+    <path d="M1060 0V760"/>
+    <path d="M1180 0V760"/>
+    <path d="M1300 0V760"/>
+    <path d="M1420 0V760"/>
+    <path d="M1540 0V760"/>
+  </g>
+
+  <rect x="70" y="70" width="1460" height="620" fill="#0E140F" stroke="#263128" stroke-width="2"/>
+  <rect x="100" y="100" width="1400" height="120" fill="#101612" stroke="#263128" stroke-width="2"/>
+  <text x="130" y="175" fill="#9EE37D" font-family="IBM Plex Mono, monospace" font-size="34">$ project healthmate</text>
+
+  <text x="130" y="322" fill="#D7E2D1" font-family="IBM Plex Mono, monospace" font-size="104" font-weight="600">HEALTHMATE</text>
+  <text x="132" y="382" fill="#9EE37D" font-family="IBM Plex Mono, monospace" font-size="36">production-grade healthcare platform</text>
+
+  <rect x="130" y="442" width="260" height="54" fill="#101612" stroke="#263128"/>
+  <rect x="408" y="442" width="220" height="54" fill="#101612" stroke="#263128"/>
+  <rect x="646" y="442" width="240" height="54" fill="#101612" stroke="#263128"/>
+  <rect x="904" y="442" width="178" height="54" fill="#101612" stroke="#263128"/>
+  <text x="156" y="477" fill="#D7E2D1" font-family="IBM Plex Mono, monospace" font-size="24">doctor web app</text>
+  <text x="434" y="477" fill="#D7E2D1" font-family="IBM Plex Mono, monospace" font-size="24">patient mobile</text>
+  <text x="674" y="477" fill="#D7E2D1" font-family="IBM Plex Mono, monospace" font-size="24">early detection ml</text>
+  <text x="930" y="477" fill="#D7E2D1" font-family="IBM Plex Mono, monospace" font-size="24">mcp + sena</text>
+
+  <path d="M130 592H680" stroke="#263128" stroke-width="2"/>
+  <path d="M920 592H1470" stroke="#263128" stroke-width="2"/>
+  <text x="130" y="574" fill="#93A18C" font-family="IBM Plex Mono, monospace" font-size="26">.net / angular / python / scikit-learn / sql server</text>
+  <text x="920" y="574" fill="#93A18C" font-family="IBM Plex Mono, monospace" font-size="26">team lead / full-stack / healthcare ai workflows</text>
+</svg>

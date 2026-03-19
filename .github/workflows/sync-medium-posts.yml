@@ -1,0 +1,36 @@
+name: Sync Medium Posts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync-medium:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch latest Medium posts
+        run: node .github/scripts/sync-medium.mjs
+
+      - name: Commit updated Medium feed data
+        run: |
+          if git diff --quiet -- generated_medium_posts.js; then
+            echo "No Medium changes to commit."
+            exit 0
+          fi
+
+          git add generated_medium_posts.js
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "chore: sync medium posts"
+          git push

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Mohamed Abdulgany</title>
+    <meta
+      name="description"
+      content="Articles by Mohamed Abdulgany from both local posts and Medium."
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell blog-page-shell">
+      <header class="blog-hero" id="top">
+        <nav class="topbar">
+          <a class="brand" href="index.html">Mohamed Abdulgany</a>
+          <div class="topbar-links">
+            <a class="nav-link" href="index.html#projects">Projects</a>
+            <a class="nav-link" href="blog.html">Blog</a>
+          </div>
+        </nav>
+
+        <div class="blog-hero-copy">
+          <p class="eyebrow">$ ls writing</p>
+          <h1>Writing on software, systems, and the details that actually matter.</h1>
+          <p class="intro">
+            A collection of articles, ideas, and technical notes from across my writing.
+          </p>
+        </div>
+      </header>
+
+      <main>
+        <section class="blog-section" id="blog-posts">
+          <div class="section-heading blog-section-heading">
+            <p class="eyebrow">$ browse posts</p>
+          </div>
+
+          <div class="blog-grid" id="blog-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="local-posts.js"></script>
+    <script src="generated_medium_posts.js"></script>
+    <script src="blog.js"></script>
+  </body>
+</html>

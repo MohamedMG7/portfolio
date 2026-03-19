@@ -1,0 +1,62 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="238" y1="86" x2="1401" y2="854" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1710"/>
+      <stop offset="1" stop-color="#060A08"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="264" y1="158" x2="1318" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17261B"/>
+      <stop offset="1" stop-color="#0D130F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="314" y1="230" x2="1122" y2="619" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8FF94"/>
+      <stop offset="1" stop-color="#73A35D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1308" cy="183" r="164" fill="#203526" fill-opacity="0.52"/>
+  <circle cx="210" cy="790" r="246" fill="#142119" fill-opacity="0.84"/>
+  <path d="M250 162C250 143.222 265.222 128 284 128H1316C1334.78 128 1350 143.222 1350 162V738C1350 756.778 1334.78 772 1316 772H284C265.222 772 250 756.778 250 738V162Z" fill="url(#panel)" stroke="#2E4534" stroke-width="2"/>
+  <path d="M250 212H1350" stroke="#283B2D" stroke-width="2"/>
+  <circle cx="304" cy="170" r="10" fill="#D8FF94" fill-opacity="0.95"/>
+  <circle cx="338" cy="170" r="10" fill="#88AF78"/>
+  <circle cx="372" cy="170" r="10" fill="#4D6C55"/>
+  <text x="1040" y="178" fill="#D8FF94" font-family="'IBM Plex Mono', monospace" font-size="24" letter-spacing="0.18em">DEPI / 2024</text>
+
+  <rect x="312" y="256" width="360" height="360" rx="28" fill="#101813" stroke="#324A39" stroke-width="2"/>
+  <rect x="744" y="256" width="544" height="176" rx="28" fill="#101813" stroke="#324A39" stroke-width="2"/>
+  <rect x="744" y="468" width="544" height="200" rx="28" fill="#101813" stroke="#324A39" stroke-width="2"/>
+
+  <rect x="360" y="328" width="104" height="104" rx="18" fill="#18241B" stroke="#3E5C46" stroke-width="2"/>
+  <rect x="390" y="356" width="44" height="44" rx="10" fill="url(#accent)"/>
+  <path d="M380 458H460" stroke="#D8FF94" stroke-width="10" stroke-linecap="round"/>
+  <path d="M516 350H610" stroke="#D8FF94" stroke-width="12" stroke-linecap="round"/>
+  <path d="M516 390H584" stroke="#6B8E6D" stroke-width="10" stroke-linecap="round"/>
+  <path d="M516 424H564" stroke="#6B8E6D" stroke-width="10" stroke-linecap="round"/>
+  <rect x="360" y="504" width="250" height="60" rx="16" fill="#16221A" stroke="#304735" stroke-width="2"/>
+  <text x="392" y="544" fill="#D8FF94" font-family="'IBM Plex Mono', monospace" font-size="26">Stock Ready</text>
+
+  <rect x="786" y="294" width="164" height="100" rx="20" fill="#17231A"/>
+  <rect x="972" y="294" width="126" height="100" rx="20" fill="#17231A"/>
+  <rect x="1120" y="294" width="126" height="100" rx="20" fill="#17231A"/>
+  <path d="M818 325H912" stroke="#D8FF94" stroke-width="12" stroke-linecap="round"/>
+  <path d="M818 355H890" stroke="#678969" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1004 327H1066" stroke="#D8FF94" stroke-width="12" stroke-linecap="round"/>
+  <path d="M1148 327H1210" stroke="#D8FF94" stroke-width="12" stroke-linecap="round"/>
+  <path d="M1004 356H1050" stroke="#678969" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1148 356H1194" stroke="#678969" stroke-width="10" stroke-linecap="round"/>
+
+  <path d="M790 514C790 500.745 800.745 490 814 490H1074C1087.25 490 1098 500.745 1098 514V620C1098 633.255 1087.25 644 1074 644H814C800.745 644 790 633.255 790 620V514Z" fill="#152019"/>
+  <path d="M1154 514C1154 500.745 1164.75 490 1178 490H1218C1231.25 490 1242 500.745 1242 514V620C1242 633.255 1231.25 644 1218 644H1178C1164.75 644 1154 633.255 1154 620V514Z" fill="#152019"/>
+  <path d="M834 530H1048" stroke="#D8FF94" stroke-width="12" stroke-linecap="round"/>
+  <path d="M834 566H1008" stroke="#678969" stroke-width="10" stroke-linecap="round"/>
+  <path d="M834 600H944" stroke="#678969" stroke-width="10" stroke-linecap="round"/>
+  <rect x="1180" y="524" width="36" height="82" rx="10" fill="url(#accent)"/>
+
+  <path d="M1056 706L1098 579H1148L1098 706H1056Z" fill="#D8FF94" fill-opacity="0.24"/>
+  <path d="M1120 706L1162 579H1212L1162 706H1120Z" fill="#D8FF94" fill-opacity="0.5"/>
+  <path d="M1184 706L1226 579H1276L1226 706H1184Z" fill="#D8FF94" fill-opacity="0.24"/>
+
+  <text x="312" y="104" fill="#D8FF94" font-family="'IBM Plex Mono', monospace" font-size="26" letter-spacing="0.2em">SELECTED PROJECT</text>
+  <text x="312" y="840" fill="#F3FFE2" font-family="'IBM Plex Mono', monospace" font-size="72" font-weight="600">Inventory Management System</text>
+</svg>

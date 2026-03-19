@@ -1,0 +1,55 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="182" y1="102" x2="1396" y2="844" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#161825"/>
+      <stop offset="1" stop-color="#090B11"/>
+    </linearGradient>
+    <linearGradient id="card" x1="346" y1="173" x2="1232" y2="738" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22273A"/>
+      <stop offset="1" stop-color="#111521"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="332" y1="270" x2="984" y2="677" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7B7FF"/>
+      <stop offset="1" stop-color="#84B7FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1298" cy="186" r="150" fill="#2B3150" fill-opacity="0.42"/>
+  <circle cx="204" cy="744" r="224" fill="#1A1F32" fill-opacity="0.7"/>
+  <rect x="248" y="132" width="1104" height="636" rx="34" fill="url(#card)" stroke="#343B58" stroke-width="2"/>
+  <rect x="308" y="196" width="420" height="508" rx="28" fill="#111624" stroke="#394160" stroke-width="2"/>
+  <rect x="786" y="196" width="506" height="240" rx="28" fill="#111624" stroke="#394160" stroke-width="2"/>
+  <rect x="786" y="468" width="506" height="236" rx="28" fill="#111624" stroke="#394160" stroke-width="2"/>
+
+  <rect x="364" y="258" width="112" height="112" rx="56" fill="url(#accent)" fill-opacity="0.9"/>
+  <path d="M401 305C401 294.507 409.507 286 420 286C430.493 286 439 294.507 439 305C439 315.493 430.493 324 420 324C409.507 324 401 315.493 401 305Z" fill="#161825"/>
+  <path d="M384 352C384 332.118 400.118 316 420 316C439.882 316 456 332.118 456 352V370H384V352Z" fill="#161825"/>
+
+  <path d="M510 281H654" stroke="#F4F7FF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M510 320H614" stroke="#8F98B8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M510 350H590" stroke="#8F98B8" stroke-width="10" stroke-linecap="round"/>
+
+  <rect x="356" y="418" width="324" height="88" rx="18" fill="#171D2D"/>
+  <rect x="356" y="530" width="324" height="88" rx="18" fill="#171D2D"/>
+  <circle cx="408" cy="462" r="24" fill="#A6C7FF"/>
+  <circle cx="408" cy="574" r="24" fill="#F1B7FF"/>
+  <path d="M456 448H618" stroke="#F4F7FF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M456 478H572" stroke="#8F98B8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M456 560H610" stroke="#F4F7FF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M456 590H564" stroke="#8F98B8" stroke-width="10" stroke-linecap="round"/>
+
+  <path d="M840 260H1054" stroke="#F4F7FF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M840 308H1222" stroke="#8F98B8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M840 342H1174" stroke="#8F98B8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M840 376H1114" stroke="#8F98B8" stroke-width="10" stroke-linecap="round"/>
+
+  <rect x="842" y="514" width="190" height="146" rx="22" fill="#171D2D"/>
+  <rect x="1050" y="514" width="190" height="146" rx="22" fill="#171D2D"/>
+  <path d="M898 586H976" stroke="#A6C7FF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M1084 586H1162" stroke="#F1B7FF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M937 547V625" stroke="#A6C7FF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M1123 547V625" stroke="#F1B7FF" stroke-width="14" stroke-linecap="round"/>
+
+  <text x="308" y="104" fill="#D7DFFF" font-family="'IBM Plex Mono', monospace" font-size="26" letter-spacing="0.18em">OLD PROJECT / 2024</text>
+  <text x="308" y="828" fill="#F5F7FF" font-family="'IBM Plex Mono', monospace" font-size="72" font-weight="600">Phone Book System</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#0B0F0C"/>
+  <g opacity="0.06" stroke="#9EE37D">
+    <path d="M0 72H1600"/>
+    <path d="M0 144H1600"/>
+    <path d="M0 216H1600"/>
+    <path d="M0 288H1600"/>
+    <path d="M0 360H1600"/>
+    <path d="M0 432H1600"/>
+    <path d="M0 504H1600"/>
+    <path d="M0 576H1600"/>
+    <path d="M0 648H1600"/>
+    <path d="M0 720H1600"/>
+    <path d="M0 792H1600"/>
+    <path d="M120 0V900"/>
+    <path d="M264 0V900"/>
+    <path d="M408 0V900"/>
+    <path d="M552 0V900"/>
+    <path d="M696 0V900"/>
+    <path d="M840 0V900"/>
+    <path d="M984 0V900"/>
+    <path d="M1128 0V900"/>
+    <path d="M1272 0V900"/>
+    <path d="M1416 0V900"/>
+  </g>
+
+  <rect x="96" y="96" width="1408" height="708" fill="#0E140F" stroke="#263128" stroke-width="2"/>
+
+  <circle cx="800" cy="450" r="210" stroke="#9EE37D" stroke-width="2" opacity="0.75"/>
+  <circle cx="800" cy="450" r="146" stroke="#9EE37D" stroke-width="2" opacity="0.45"/>
+  <circle cx="800" cy="450" r="74" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+
+  <circle cx="530" cy="310" r="52" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+  <circle cx="1100" cy="300" r="52" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+  <circle cx="1160" cy="610" r="52" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+  <circle cx="470" cy="620" r="52" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+
+  <path d="M530 310L800 450" stroke="#9EE37D" stroke-width="2" opacity="0.65"/>
+  <path d="M1100 300L800 450" stroke="#9EE37D" stroke-width="2" opacity="0.65"/>
+  <path d="M1160 610L800 450" stroke="#9EE37D" stroke-width="2" opacity="0.65"/>
+  <path d="M470 620L800 450" stroke="#9EE37D" stroke-width="2" opacity="0.65"/>
+
+  <g transform="translate(742 392)">
+    <rect x="0" y="0" width="34" height="116" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+    <rect x="42" y="-18" width="34" height="152" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+    <rect x="84" y="14" width="34" height="102" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(496 276)">
+    <path d="M0 16C0 7.16 7.16 0 16 0H88V80H16C7.16 80 0 72.84 0 64V16Z" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+    <path d="M88 0H160C168.84 0 176 7.16 176 16V64C176 72.84 168.84 80 160 80H88V0Z" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+    <path d="M88 0V80" stroke="#9EE37D" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(1066 260)">
+    <rect x="0" y="0" width="78" height="78" rx="39" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+    <rect x="18" y="18" width="42" height="42" rx="21" fill="#0B0F0C" stroke="#9EE37D" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(1118 568)">
+    <rect x="0" y="0" width="84" height="54" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+    <rect x="16" y="-14" width="84" height="54" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(426 566)">
+    <path d="M22 0C34.15 0 44 9.85 44 22C44 34.15 34.15 44 22 44C9.85 44 0 34.15 0 22C0 9.85 9.85 0 22 0Z" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+    <path d="M76 0C88.15 0 98 9.85 98 22C98 34.15 88.15 44 76 44C63.85 44 54 34.15 54 22C54 9.85 63.85 0 76 0Z" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+    <path d="M12 58C12 42.54 24.54 30 40 30H58C73.46 30 86 42.54 86 58V70H12V58Z" fill="#101612" stroke="#9EE37D" stroke-width="2"/>
+  </g>
+
+  <text x="122" y="156" fill="#9EE37D" font-family="IBM Plex Mono, monospace" font-size="30">$ circle --book-club-platform</text>
+  <text x="122" y="764" fill="#93A18C" font-family="IBM Plex Mono, monospace" font-size="28">clubs / books / feed / chat / meetings / marketplace</text>
+</svg>

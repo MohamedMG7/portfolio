@@ -1,0 +1,34 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="180" y1="82" x2="1414" y2="847" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#241916"/>
+      <stop offset="1" stop-color="#090A0E"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="271" y1="151" x2="1319" y2="737" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36231F"/>
+      <stop offset="1" stop-color="#171214"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="328" y1="257" x2="1123" y2="631" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB17A"/>
+      <stop offset="1" stop-color="#F56CAB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1298" cy="174" r="168" fill="#4B2926" fill-opacity="0.34"/>
+  <rect x="248" y="132" width="1104" height="636" rx="36" fill="url(#panel)" stroke="#5A3530" stroke-width="2"/>
+  <rect x="324" y="228" width="426" height="444" rx="28" fill="#181214" stroke="#5E3A35" stroke-width="2"/>
+  <rect x="812" y="228" width="468" height="204" rx="28" fill="#181214" stroke="#5E3A35" stroke-width="2"/>
+  <rect x="812" y="468" width="468" height="204" rx="28" fill="#181214" stroke="#5E3A35" stroke-width="2"/>
+  <rect x="376" y="284" width="320" height="300" rx="22" fill="#23171A"/>
+  <rect x="420" y="328" width="232" height="212" rx="18" fill="url(#accent)" fill-opacity="0.22" stroke="#FFB17A" stroke-width="2"/>
+  <path d="M462 358L588 434L462 510V358Z" fill="url(#accent)"/>
+  <path d="M874 292H1088" stroke="#FFF1E7" stroke-width="14" stroke-linecap="round"/>
+  <path d="M874 334H1218" stroke="#AF8B82" stroke-width="10" stroke-linecap="round"/>
+  <path d="M874 364H1166" stroke="#AF8B82" stroke-width="10" stroke-linecap="round"/>
+  <rect x="874" y="516" width="336" height="112" rx="22" fill="#23171A"/>
+  <rect x="914" y="550" width="166" height="16" rx="8" fill="#FFB17A"/>
+  <rect x="914" y="584" width="232" height="12" rx="6" fill="#AF8B82"/>
+  <circle cx="1180" cy="572" r="28" fill="#F56CAB"/>
+  <text x="318" y="108" fill="#FFE4D6" font-family="'IBM Plex Mono', monospace" font-size="26" letter-spacing="0.18em">INTERNSHIP / LEVEL 3</text>
+  <text x="320" y="824" fill="#FFF5F0" font-family="'IBM Plex Mono', monospace" font-size="72" font-weight="600">Movie API</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="183" y1="78" x2="1422" y2="841" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151A28"/>
+      <stop offset="1" stop-color="#090B10"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="258" y1="136" x2="1339" y2="756" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D2435"/>
+      <stop offset="1" stop-color="#10141E"/>
+    </linearGradient>
+    <linearGradient id="good" x1="896" y1="264" x2="1268" y2="608" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9FF18D"/>
+      <stop offset="1" stop-color="#4FBF8F"/>
+    </linearGradient>
+    <linearGradient id="bad" x1="336" y1="264" x2="708" y2="608" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9AA5"/>
+      <stop offset="1" stop-color="#E2627A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1314" cy="170" r="150" fill="#2A3348" fill-opacity="0.42"/>
+  <circle cx="182" cy="760" r="220" fill="#1B2030" fill-opacity="0.72"/>
+  <rect x="238" y="132" width="1124" height="636" rx="36" fill="url(#panel)" stroke="#313A50" stroke-width="2"/>
+  <rect x="314" y="228" width="424" height="444" rx="28" fill="#101520" stroke="#364059" stroke-width="2"/>
+  <rect x="862" y="228" width="424" height="444" rx="28" fill="#101520" stroke="#364059" stroke-width="2"/>
+  <circle cx="800" cy="450" r="76" fill="#1A2131" stroke="#46516F" stroke-width="6"/>
+  <text x="756" y="464" fill="#C8D2EE" font-family="'IBM Plex Mono', monospace" font-size="46" font-weight="600">VS</text>
+  <rect x="356" y="272" width="130" height="22" rx="11" fill="url(#bad)"/>
+  <rect x="904" y="272" width="116" height="22" rx="11" fill="url(#good)"/>
+  <rect x="356" y="328" width="278" height="16" rx="8" fill="#FFB7C0"/>
+  <rect x="356" y="366" width="216" height="12" rx="6" fill="#7783A6"/>
+  <rect x="356" y="398" width="244" height="12" rx="6" fill="#7783A6"/>
+  <rect x="356" y="430" width="182" height="12" rx="6" fill="#7783A6"/>
+  <rect x="356" y="474" width="310" height="12" rx="6" fill="#E2627A" fill-opacity="0.7"/>
+  <rect x="356" y="506" width="204" height="12" rx="6" fill="#E2627A" fill-opacity="0.45"/>
+  <rect x="356" y="538" width="258" height="12" rx="6" fill="#E2627A" fill-opacity="0.3"/>
+  <rect x="904" y="328" width="290" height="16" rx="8" fill="#DFFBD9"/>
+  <rect x="904" y="366" width="206" height="12" rx="6" fill="#7783A6"/>
+  <rect x="904" y="398" width="238" height="12" rx="6" fill="#7783A6"/>
+  <rect x="904" y="430" width="162" height="12" rx="6" fill="#7783A6"/>
+  <rect x="904" y="474" width="326" height="12" rx="6" fill="#4FBF8F" fill-opacity="0.8"/>
+  <rect x="904" y="506" width="232" height="12" rx="6" fill="#4FBF8F" fill-opacity="0.45"/>
+  <rect x="904" y="538" width="268" height="12" rx="6" fill="#4FBF8F" fill-opacity="0.3"/>
+  <text x="314" y="108" fill="#DCE5FF" font-family="'IBM Plex Mono', monospace" font-size="26" letter-spacing="0.18em">SMALL TOOL / 2025</text>
+  <text x="316" y="824" fill="#F5F7FF" font-family="'IBM Plex Mono', monospace" font-size="72" font-weight="600">Code Compare</text>
+</svg>

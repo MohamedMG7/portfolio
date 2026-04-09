@@ -55,6 +55,42 @@ const projects = [
     cardImageFit: "contain"
   },
   {
+    slug: "cvmaker",
+    name: "mtb-cvMaker",
+    category: "Open-Source Resume Builder",
+    year: "2026",
+    tag: "Open Source + React",
+    cardSummary:
+      "A local-first CV and resume builder with live preview, multiple templates, and free PDF, DOCX, and JSON export.",
+    overview:
+      "cvMaker is a free and open-source CV builder designed to give people a serious resume tool without subscriptions, locked exports, or paywalled templates. It focuses on fast editing, privacy-friendly local storage, and reliable export flows while keeping the interface practical and easy to use.",
+    detailHeadline: "A local-first resume builder shaped around usability, portability, and zero paywalls.",
+    detailBody:
+      "I made this tool for me and i thought it would be useful and fun to share it with people. I built cvMaker with React, TypeScript, and Vite as a browser-based resume editor that feels like a real product rather than a form demo. The app supports autosaved local editing, live preview, multiple resume templates, and export paths for PDF, DOCX, and raw JSON data. What makes it meaningful to me is the product direction as much as the code: a genuinely useful tool that stays open-source, privacy-friendly, and accessible without locking core features behind payments.",
+    role: "Creator / Frontend Engineer",
+    stack: [
+      "React 19",
+      "TypeScript",
+      "Vite",
+      "Zustand",
+      "Zod",
+      "Dexie",
+      "docx",
+      "jsPDF"
+    ],
+    outcomes: [
+      "Built a local-first resume builder with autosave and live preview directly in the browser",
+      "Added multiple export paths including PDF, DOCX, and portable JSON resume data",
+      "Supported richer resume authoring with templates plus sections like awards, publications, languages, references, and custom blocks",
+      "Kept the product free and open-source instead of locking core resume features behind subscriptions"
+    ],
+    accent: "linear-gradient(135deg, #163946 0%, #0b1114 100%)",
+    image: "assets/cvmaker-banner.svg",
+    cardImage: "assets/cvmaker-banner.svg",
+    cardImageFit: "cover",
+    repoUrl: "https://github.com/MohamedMG7/mtb-cvmaker"
+  },
+  {
     slug: "healthmate",
     name: "HealthMate",
     category: "Production Healthcare Platform",
